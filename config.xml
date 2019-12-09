@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<widget
+        xmlns       = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "ca.dectim.mi3.latempete"
+        version     = "1.0"
+>
+
+  <!-- Identification et description -->
+  <name>La Tempête</name>
+
+  <description>
+      La Tempête est une application réalisée dans le cadre du cours de Médias interactifs III au Cégep Édouard-Montpetit.
+  </description>
+
+  <author href="https://dectim.ca" email="lucas@joliveau.com">
+      Lucas Joliveau
+  </author>
+
+  <preference name='phonegap-version' value='cli-9.0.0' />
+
+  <!-- Icône par défaut, peut importe la plateforme -->
+  <icon src="icon.png" />
+
+  <!-- Paramètre généraux -->
+  <preference name="Orientation" value="portrait" />
+  <preference name="Fullscreen" value="true" />
+<!--  <preference name="DisallowOverscroll" value="true" />-->
+
+  <!-- Paramètres spécifique à Android-->
+  <platform name="android">
+
+    <!-- Icônes de l'application -->
+    <icon src="ressources/icones/ldpi.png" qualifier="ldpi" />
+    <icon src="ressources/icones/mdpi.png" qualifier="mdpi" />
+    <icon src="ressources/icones/hdpi.png" qualifier="hdpi" />
+    <icon src="ressources/icones/xhdpi.png" qualifier="xhdpi" />
+    <icon src="ressources/icones/xxhdpi.png" qualifier="xxhdpi" />
+    <icon src="ressources/icones/xxxhdpi.png" qualifier="xxxhdpi" />
+
+  </platform>
+
+</widget>

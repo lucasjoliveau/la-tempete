@@ -1,0 +1,50 @@
+{
+
+  "manifest": [
+
+    {"id": "fond",  "src": "ressources/images/scene.png"},
+    {"id": "sol",  "src": "ressources/images/sol.png"},
+
+    {"id": "nuage0",  "src": "ressources/images/nuage0.png"},
+    {"id": "nuage1",  "src": "ressources/images/nuage1.png"},
+
+    {"id": "barreNiveau",  "src": "ressources/images/barre_niveau.png"},
+
+    {"id": "titreJeu",  "src": "ressources/images/titreJeu.png"},
+
+    {"id": "boutonInstructions",  "src": "ressources/images/boutonInstructions.png"},
+    {"id": "boutonJouer",  "src": "ressources/images/boutonJouer.png"},
+    {"id": "boutonRejouer",  "src": "ressources/images/boutonRejouer.png"},
+
+    {"id": "panneauInstructions",  "src": "ressources/images/panneauInstructions.png"},
+    {"id": "arrierePlanIntro",  "src": "ressources/images/arrierePlanIntro.png"},
+    {"id": "vague_1",  "src": "ressources/images/vague_1.png"},
+    {"id": "vague_2",  "src": "ressources/images/vague_2.png"},
+    {"id": "vague_3",  "src": "ressources/images/vague_3.png"},
+
+    {"id": "plat_01",  "src": "ressources/images/plat_01.png"},
+    {"id": "plat_02",  "src": "ressources/images/plat_02.png"},
+    {"id": "plat_03",  "src": "ressources/images/plat_03.png"},
+    {"id": "plat_04",  "src": "ressources/images/plat_04.png"},
+    {"id": "plat_05",  "src": "ressources/images/plat_05.png"},
+    {"id": "plat_06",  "src": "ressources/images/plat_06.png"},
+
+    {"id": "victoire",  "src": "ressources/images/victoire.png"},
+    {"id": "defaite",  "src": "ressources/images/defaite.png"},
+
+    {"id": "niveau2",  "src": "ressources/images/niveau2.png"},
+    {"id": "niveau3",  "src": "ressources/images/niveau3.png"},
+
+    {"id": "musique",  "src": "ressources/sons/musique.ogg", "type":  "sound"},
+    {"id": "clicBouton",  "src": "ressources/sons/clicBouton.mp3", "type":  "sound"},
+    {"id": "animationOutroSon",  "src": "ressources/sons/animationOutro.mp3", "type":  "sound"},
+
+    {"id": "musiqueVictoire",  "src": "ressources/sons/musiqueVictoire.mp3", "type":  "sound"},
+    {"id": "sonPoint",  "src": "ressources/sons/sonPoint.mp3", "type":  "sound"},
+
+    {"id": "heros",  "src": "ressources/atlas/heros.json", "type": "spritesheet"},
+
+    {"id": "police", "src": "ressources/polices/Comfortaa.ttf", "type": "font"}
+
+  ]
+}
